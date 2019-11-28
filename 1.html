@@ -8,6 +8,7 @@
 <style media="screen">
   h2 {color: black;}
   .first {color: black}
+  .first {text-decoration: none}
   #two{color : black}
   .second {font-size: 45px;}
   .second {font-weight: bold;}
@@ -15,21 +16,29 @@
   .three {font-size: 30px;}
 </style>
 <style media="screen">
+@media(max-width: 800px){}
 .grid{
   display: grid;
   grid-template-columns:200px 1fr;
-   border-top: 2px solid black;
+   border-top: 5px solid black;
 }
 .article{
-  border-left: 2px
-  solid black;
-  margin: 25px;
   margin-left: 150px;
+  margin-top: 40px;
+  margin-right: 40px;
+
   background-color: #CEF6F5;
   padding: 30px;
+
 }
  .navigation{
-   width: 500px;
+   border-right: 5px black solid;
+   width: 300px;
+ }
+.body{
+  background-color: blac
+}
+
  }
  a{
    text-decoration: none;
@@ -47,16 +56,14 @@
    margin-left: 200px;
  }
  ol{
-
    width: 250px;
  margin: 1px;
  font-size: 30px;
  font-weight: bold;
  }
+ </style>
 
-</style>
-
-       <body>
+<body bgcolor="#EFF8FB">
          <h1><strong>내가 좋아하는 것들</strong></h1></br>
        <div class="grid">
        <div class="navigation">
@@ -73,11 +80,15 @@
        <strong><p><font class ="three">첫번째로 핑거스타일이 있습니다.</br></strong></p></font>
        <p>핑거스타일은 말 그대로 손가락을 튕겨 기타를 치는 주법입니다.</p>
        <p>제가 좋아하는 기타리스트, 곡들을 소개해드리고자 합니다.</p>
-
-
-
-
-
+       <strong><p><font class="three">두번째는 TED TALK 리뷰 입니다.</strong></p></font>
+       <p>인종, 나이, 성별 등의 모든 요소에 상관 없이,</p>
+       <p>지식이나 가치관을 나누는 지식의 장입니다.</p>
+       <p>저는 강의를 듣고 복습하면서 영어도 공부하고</p>
+       <p>사람들의 생각을 듣습니다.</p>
+        <strong><p><font class="three">세번째는 세계여행입니다.</strong></p></font>
+        <p>해본 적은 없지만</p>
+        <p>성인이 되면 제일 하고싶은 취미입니다.</p>
+        <p>특히 유럽 쪽으로 가고싶어서 유럽 부근을 소개해드리려합니다.</p>
      </div>
        </body>
        </html>

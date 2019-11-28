@@ -4,25 +4,84 @@
     <meta charset="utf-8">
     <title>내가 좋아하는 것들</title>
     </head>
-  <body>
-    <h1><strong>내가 좋아하는 것들</strong></h1></br>
-<ol>
-  <li><h2> <a href="2.html">핑거스타일 기타</a></h2></li>
-  <li><h2> <a href="3.html">Ted talk</a></h2></li>
-  <li><h2> <a href="4.html">세계 여행</a></h2></li>
-  <li><h2> <a href="1.html">홈으로</a></h2></li><br>
-</ol>
-  <h1>내가 좋아하는 것 : 1. 핑거스타일</h1><br>
-  <p>핑거스타일은 말 그대로 '핑거(손가락)'으로 기타를 치는 것을 말합니다.</p>
-  <p>그리고 한국 핑거스타일의 대가인 정성하씨는 저의 롤모델이라 할 수 있습니다.</p>
-  <p>제가 정성하씨를 존경하는 이유는 대중성과 실력 면에서 이야기 할 수 있습니다.</p>
-<p>실력은 말할 것도 없고, 순수 기타곡 뿐만이 아닌 많은 사람들이 알고 있는 팝송</p>
-<p>까지도 소화해내는 모습이 인상깊었습니다.</p>
-<img src="정성하.jfif" alt="정성하">
-<p>특히, 저는 정성하씨의 'isnt she lovely'라는 곡을 좋아하는데요.</p>
-<p>통통튀는 박자와 타격기가 인상적인 곡입니다.</p>
-<video src="videofile.ogg" autoplay poster="posterimage.jpg">
+    <style media="screen">
+      h2 {color: black;}
+      .first {color: black}
+      .first {text-decoration: none}
+      #two{color : black}
+      .second {font-size: 45px;}
+      .second {font-weight: bold;}
+      .second {margin: 15px;}
+      .three {font-size: 30px;}
+    </style>
+    <style media="screen">
+    @media(max-width: 800px){}
+    .grid{
+      display: grid;
+      grid-template-columns:200px 1fr;
+       border-top: 5px solid black;
+    }
+    .article{
+      margin-left: 150px;
+      margin-top: 40px;
+      margin-right: 40px;
+      background-color: #A9F5D0;
+      padding: 30px;
+    }
+     .navigation{
+       border-right: 5px black solid;
+       width: 300px;
+     }
+    .body{
+      background-color: blac
+    }
 
-</video>
+     }
+     a{
+       text-decoration: none;
+     }
+      h1 {
+        border:5px red
+        padding:50px;
+        margin: 5px;
+        display:block;
+     text-align: center;
+     font-size: 75px;
+     }
+     h2{
+       margin-top: 30px;
+       margin-left: 200px;
+     }
+     ol{
+       width: 250px;
+     margin: 1px;
+     font-size: 30px;
+     font-weight: bold;
+     }
+    </style>
+      <body bgcolor="#EFFBF5">
+          <h1><strong>내가 좋아하는 것들</strong></h1></br>
+          <div class="grid">
+          <div class="navigation">
+          <ol>
+            <li> <a href="2.html"class="first">핑거스타일 기타</a></li><br>
+            <li> <a href="3.html"class="first">Ted talk</a></li><br>
+            <li> <a href="4.html"class="first"id="one">세계 여행</a></li><br>
+            <li> <a href="1.html"class="first">홈으로</a></li><br>
+          </ol>
+          </div>
+          <div class="article">
+            <p><font color = "black" class="second"> 첫번째 ㅣ 핑거스타일</font></p>
+            <p><font size = "5px">핑거스타일은 말 그대로 '핑거(손가락)'으로 기타를 치는 것을 말합니다.</p>
+            <p>그리고 한국 핑거스타일의 대가인 정성하씨는 저의 롤모델이라 할 수 있습니다.</p>
+            <p>제가 정성하씨를 존경하는 이유는 대중성과 실력 면에서 이야기 할 수 있습니다.</p>
+          <p>실력은 말할 것도 없고, 순수 기타곡 뿐만이 아닌 많은 사람들이 알고 있는 팝송</p>
+          <p>까지도 소화해내는 모습이 인상깊었습니다.</p>
+          <img src="정성하.jfif" alt="정성하">
+          <p>특히, 저는 정성하씨의 'nandemonaiya'라는 곡을 좋아하는데요.</p>
+          <p>아름다운 멜로디와 타격기가 인상적인 곡입니다.</p></font>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tU3Ly2sEKCg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
   </body>
 </html>

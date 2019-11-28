@@ -3,18 +3,78 @@
   <head>
     <meta charset="utf-8">
     <title>내가 좋아하는 것들</title>
-    </head>
-  <body>
+  </head>
+  <style media="screen">
+    h2 {color: black;}
+    .first {color: black}
+    .first {text-decoration: none}
+    #two{color : black}
+    .second {font-size: 45px;}
+    .second {font-weight: bold;}
+    .second {margin: 15px;}
+    .three {font-size: 30px;}
+  </style>
+  <style media="screen">
+  @media(max-width: 800px){}
+  .grid{
+    display: grid;
+    grid-template-columns:200px 1fr;
+     border-top: 5px solid black;
+  }
+  .article{
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-right: 40px;
+    background-color: #F2F5A9;
+    padding: 30px;
+  }
+   .navigation{
+     border-right: 5px black solid;
+     width: 300px;
+   }
+  .body{
+    background-color: blac
+  }
+
+   }
+   a{
+     text-decoration: none;
+   }
+    h1 {
+      border:5px red
+      padding:50px;
+      margin: 5px;
+      display:block;
+   text-align: center;
+   font-size: 75px;
+   }
+   h2{
+     margin-top: 30px;
+     margin-left: 200px;
+   }
+   ol{
+     width: 250px;
+   margin: 1px;
+   font-size: 30px;
+   font-weight: bold;
+   }
+  </style>
+    <body bgcolor="#F7F8E0">
     <h1><strong>내가 좋아하는 것들</strong></h1></br>
-<ol>
-  <li><h2> <a href="2.html">핑거스타일 기타</a></h2></li>
-  <li><h2> <a href="3.html">Ted talk</a></h2></li>
-  <li><h2> <a href="4.html">세계 여행</a></h2></li>
-  <li><h2> <a href="1.html">홈으로</a></h2></li><br>
-</ol>
-  <h1><font>내가 좋아하는 것 2 : ted talk review</font></h1><br>
-  <p>ted talk은 인종, 성별, 가치관 그리고 종교에 상관 없이 모든 사람들이</p>
-  <p>자신의 지식을 강연을 통해 다른 사람들과 나누는 지식의 장이라고 할 수 있습니다.</p>
+    <div class="grid">
+    <div class="navigation">
+    <ol>
+      <li> <a href="2.html"class="first">핑거스타일 기타</a></li><br>
+      <li> <a href="3.html"class="first">Ted talk</a></li><br>
+      <li> <a href="4.html"class="first"id="one">세계 여행</a></li><br>
+      <li> <a href="1.html"class="first">홈으로</a></li><br>
+    </ol>
+    </div>
+    <div class="article">
+  <p><font color = "black" class="second"> 두번째 ㅣ ted talk review</font></p>
+  <p><font size="5px"> ted talk은 인종, 성별, 가치관 그리고 종교에 상관 없이 모든 사람들이</p>
+  <p>자신의 지식을 강연을 통해 다른 사람들과 나누는 지식의 장이라고 할 수 있습니다.</p></font>
   <img src="ted.jpg" alt="테드 톡">
+
   </body>
 </html>
